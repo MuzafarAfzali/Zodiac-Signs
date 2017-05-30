@@ -1,0 +1,46 @@
+
+body {
+	text-align: center;
+    background-image: url("https://higherperspective-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F2671282%2F1200x600.jpg/2000%2C2000/YElbmDUBvcFP8zgL/img.jpg");
+    font-size: 20px;
+    color: white;
+   font-family: 'Nova Square', cursive;
+}
+
+
+input{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: 'Nova Square', cursive;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: tomato;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
